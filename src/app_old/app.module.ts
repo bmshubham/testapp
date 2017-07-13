@@ -1,13 +1,11 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { MediaItemComponent } from '../pages/media-item/media-item.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    MediaItemComponent
+    AppComponent
   ],
   imports: [
     BrowserModule
@@ -15,4 +13,4 @@ import { MediaItemComponent } from '../pages/media-item/media-item.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
