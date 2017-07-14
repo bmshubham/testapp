@@ -6,6 +6,9 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['media-item.component.scss']
 })
 export class MediaItemComponent {
+
+  @Input() mediaItem;
+  @Output() delete = new EventEmitter();
   name = 'The Redemption';
 
   wasWatched() {
@@ -13,6 +16,7 @@ export class MediaItemComponent {
   }
 
   onDelete() {
-    console.log('deleted');
+    // console.log('deleted');
+    this.delete.emit(this.mediaItem);
   }
 }
