@@ -14,7 +14,7 @@ export class MediaItemListComponent {
     {
         id: 1,
         name: 'First Media Item',
-        medium: 'Series',
+        medium: 'Movies',
         category: 'Science Fiction',
         year: 2010,
         watchedOn: 1294415623654,
@@ -22,20 +22,20 @@ export class MediaItemListComponent {
     },
     {
         id: 2,
-        name: 'First Media Item',
-        medium: 'Movies',
-        category: 'Science Fiction',
-        year: 2010,
-        watchedOn: 1294415623654,
+        name: 'Second Media Item',
+        medium: 'Series',
+        category: 'Action',
+        year: 2012,
+        watchedOn: 1294415627454,
         isFavorite: false
     },
     {
         id: 3,
-        name: 'First Media Item',
-        medium: 'Series',
-        category: 'Science Fiction',
-        year: 2010,
-        watchedOn: 1294415623654,
+        name: 'Third Media Item',
+        medium: 'Movies',
+        category: 'Romance',
+        year: 2014,
+        watchedOn: 1294915623654,
         isFavorite: true
     }
   ];
