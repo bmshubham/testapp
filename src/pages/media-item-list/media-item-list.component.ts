@@ -18,7 +18,7 @@ export class MediaItemListComponent {
         category: 'Science Fiction',
         year: 2010,
         watchedOn: 1294415623654,
-        isFavorite: false
+        isFavorite: true
     },
     {
         id: 2,
@@ -36,7 +36,7 @@ export class MediaItemListComponent {
         category: 'Science Fiction',
         year: 2010,
         watchedOn: 1294415623654,
-        isFavorite: false
+        isFavorite: true
     }
   ];
   // paramsSubscription;
